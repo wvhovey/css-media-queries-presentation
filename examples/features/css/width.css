@@ -1,0 +1,42 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.medium {
+    display: none;
+}
+
+.large {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .box {
+        background-color: blue;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .medium {
+        display:contents;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .box {
+        background-color: yellow;
+    }
+
+    .medium {
+        display: none;
+    }
+
+    .large {
+        display: contents;
+    }
+}

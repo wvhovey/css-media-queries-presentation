@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Overview | CSS Media Queries</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student Presentation for Vaughan Hovey in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  
+  <link rel="stylesheet" href="../css-main/normalize.css">
+  <link rel="stylesheet" href="../css-main/basic.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+</head>
+<body>
+
+    <header>
+        <h1>Overview of CSS Media Queries</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="../video.html">Video</a></li>
+            <li><a href="../examples/examples.html">Examples</a></li>
+  
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="nav3">
+            <li><a href="rule.html">Media Rule</a></li>
+            <li><a href="type.html">Media Types</a></li>
+            <li><a href="features.html">Media Features</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Media Types</h2>
+        <p>The part of a media query that follows the rule is the type. As its name suggests, it is a piece of code the allows the coder to specify which type of media we are changing.
+            There are four main keywords that specify these different types: all, print, screen, and speech. </p>
+        <h3>'all'</h3> 
+        <p>This keyword is the default setting for media queries and can be used to manipulate all types of media.</p>
+        <h3>'print'</h3>
+        <p>This keyword is used for printers and allows changes to be made to your site if it is being printed.</p>
+        <h3>'screen'</h3>
+        <p>This is used specifically for types of screens whether it be a computer, phone, or tablet.</p>
+        <h3>'speech'</h3>
+        <p>This keyword is used for screenreaders that speak aloud what is written on your site.</p>
+        <h3>Syntax</h3>
+        <p><strong>@media not|only mediatype and</strong></p>
+        <h3>Example</h3>
+        <p>@media only screen and</p>
+
+
+    </main>
+
+
+    <footer>
+        <p>
+            &copy; <span id='current-year'></span> | 
+            W. Vaughan Hovey | 
+            Massachusetts |
+            <a href="https://www.byui.edu/online" target="blank">BYUI Online Learning</a>
+        </p>
+        <p class="date">Last Updated: <span id='current-date'></span></p>
+    </footer>
+
+    <script src="/js/date.js"></script>
+
+</body>
+</html>  

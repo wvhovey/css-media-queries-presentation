@@ -1,0 +1,10 @@
+@media only print {
+    
+    .box {
+        width: 250px;
+        height: 250px;
+        background-color: red;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,28 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+.landscape {
+    display: none;
+}
+
+
+
+@media only screen and (orientation: landscape) {
+
+    .box {
+        width: 500px;
+        height: 500px;
+    }
+
+    .portrait {
+        display: none;
+    }
+
+    .landscape {
+        display: contents;
+    }
+}
